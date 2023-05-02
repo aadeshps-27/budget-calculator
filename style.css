@@ -1,0 +1,267 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-style: italic;
+    scroll-behavior: smooth;
+}
+.head{
+    text-align: center;
+    text-transform: uppercase;
+  font-style: italic;
+  color: white;
+  text-shadow: 2px 3px 5px black;
+  
+ 
+}
+.add{
+    margin: 20px;
+    width: 170px;
+    margin-left: -1px;
+    height: 40px;
+    border-radius: 30px;
+   background-image: linear-gradient(145deg,rgba(255, 0, 0, 0.658), rgba(0, 255, 34, 0.877));
+    box-shadow: 2px 3px 5px black;
+
+}
+.card{
+    box-shadow: 2px 3px 10px black;
+    border-radius: 70px;
+   
+ 
+   
+}
+
+
+
+.main{
+    margin: 40px;
+    
+ 
+}
+.in{
+    margin: 10px;
+    margin-left: -1px;
+    
+}
+.new{
+    margin: 30px;
+    margin-left: -1px;
+}
+.fstin{
+   
+    margin: 20px;
+    margin-left: -1px;
+}
+.body{
+    background-image: url(https://th.bing.com/th/id/OIP.nsI3F3_ausczcwGU0SImkgHaEK?pid=ImgDet&rs=1);
+    background-size: cover;
+    backdrop-filter: blur(10%);
+   
+}
+.new1{
+    margin-left: 80px;
+}
+#exampleInputEmail1{
+
+  z-index: -20;
+  
+  
+  text-transform: uppercase;
+}
+.card-header{
+    color: white;
+}
+#card{
+   position: relative;
+overflow: hidden;
+
+ 
+
+  
+}
+#card1{
+    position: relative;
+ overflow: hidden;
+ text-transform: uppercase;
+
+  
+ 
+   
+ }
+ #card2{
+    position: relative;
+ overflow: hidden;
+ text-transform: uppercase;
+
+  
+ 
+   
+ }
+#card::after{
+    content: "";
+    position: absolute;
+    width: 500px;
+   top: -150px;
+    height: 500px;
+    
+    z-index: -20;
+    
+    background-image:conic-gradient(transparent,transparent,transparent,#daff07);
+  animation: animate 4s linear infinite;
+  animation-delay: -4s;
+} 
+#card::before{
+    content: "";
+    position: absolute;
+    width: 500px;
+    height: 500px;
+ top: -100px;
+
+    z-index: -10;
+    
+    background-image:conic-gradient(transparent,transparent,transparent,#ff002b);
+  animation: animate 4s linear infinite;
+  animation-delay: -2s;
+  
+} 
+@keyframes animate
+{
+0%{
+transform: rotate(0deg);
+}
+100%{
+    transform: rotate(360deg);
+    }
+}
+#span{
+    position: absolute;
+    inset: 5px;
+    background: rgb(0, 172, 143);
+   z-index: -10;
+   box-shadow: inset 2px 0px 5px black;
+}
+#budget{
+   text-transform: uppercase;
+  
+}
+#dd{
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: x-large;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 3px 5px black;
+}
+#card1::after{
+    content: "";
+    position: absolute;
+    width: 500px;
+   top: -150px;
+    height: 500px;
+    
+    z-index: -20;
+    
+    background-image:conic-gradient(transparent,transparent,transparent,#04e034);
+  animation: animate1 4s linear infinite;
+  
+} 
+#card1::before{
+    content: "";
+    position: absolute;
+    width: 500px;
+    height: 500px;
+ top: -100px;
+
+    z-index: -10;
+    
+    /* background-image:conic-gradient(transparent,transparent,transparent,#ff002b); */
+  animation: animate1 4s linear infinite;
+
+  
+} 
+@keyframes animate1
+{
+0%{
+transform: rotate(0deg);
+}
+100%{
+    transform: rotate(360deg);
+    }
+}
+#span{
+    position: absolute;
+    inset: 5px;
+    background: rgb(0, 172, 143);
+   z-index: -10;
+   box-shadow: inset 2px 0px 5px black;
+}
+#span1{
+    position: absolute;
+    inset: 5px;
+    background: rgb(212, 199, 13);
+   z-index: -10;
+   box-shadow: inset 2px 0px 5px black;
+}
+#card2::after{
+    content: "";
+    position: absolute;
+    width: 200px;
+   top: -150px;
+    height: 500px;
+    
+    z-index: -20;
+    
+    background-image:conic-gradient(transparent,transparent,transparent,#3ebff1);
+  animation: animate 4s linear infinite;
+  animation-delay: -4s;
+} 
+#card2::before{
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 300px;
+ top: -100px;
+
+    z-index: -10;
+    
+    background-image:conic-gradient(transparent,transparent,transparent,#ff00bf);
+  animation: animate 4s linear infinite;
+  animation-delay: -2s;
+  
+} 
+@keyframes animate
+{
+0%{
+transform: rotate(0deg);
+}
+100%{
+    transform: rotate(360deg);
+    }
+}
+#span2{
+    position: absolute;
+    inset: 5px;
+    background: rgb(103, 0, 172);
+   z-index: -10;
+   box-shadow: inset 2px 0px 5px black;
+}
+#final{
+    height: 40px;
+    width: 100px;
+border: 2px solid rgb(255, 0, 0);
+border-style: inset;
+ background-color: #0059ff;
+ color: white;
+ box-shadow: -2px 3px 5px black;
+
+
+}
+#login{
+    width: 100px;
+    text-transform: capitalize;
+    box-shadow: 2px 3px 5px black;
+    background-color: red;
+    color: white;
+}
