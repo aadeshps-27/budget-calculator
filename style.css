@@ -299,4 +299,12 @@ border-style: inset;
         position: relative;
         left: -60px;
     }
+    @media (max-width:370px){
+        #setxpence{
+            font-size: 12px;  
+        }
+        #buttonbudget{
+            font-size: 12px;  
+        }
+    }
 }
