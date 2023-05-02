@@ -9,10 +9,11 @@
           body{
             margin-top: 100px;
             font-style: italic;
-            background-color: black;
-            background-image: url(https://th.bing.com/th/id/OIP.nsI3F3_ausczcwGU0SImkgHaEK?pid=ImgDet&rs=1);
-    background-size: cover;
-    backdrop-filter: blur(90%);
+    background-image: url(https://th.bing.com/th/id/OIP.ybjrO7l9RsQJ4HfpQbrH9wHaEK?pid=ImgDet&rs=1);
+          backdrop-filter: blur(90%);
+        }
+        input{
+            text-align: center;
         }
         .bo{
             border: 2px solid black;
@@ -47,6 +48,24 @@ cursor: pointer;
             border-radius: 80px;
             
         }
+        @media (max-width:380px){
+            .bo{
+                width: 230px;
+            }
+            #acno{
+                position: relative;
+                left: -20px;
+            }
+            #pass{
+                position: relative;
+                left: -20px;
+            
+            }
+            #username{
+                position: relative;
+                left: -20px;
+            }
+        }
             
         
     </style>
@@ -57,9 +76,9 @@ cursor: pointer;
     <div class="bo">
         <img src="./Picsart_23-03-17_20-27-19-883.png" alt="" width="100px">
 <h1>Budget Calculator!</h1>
-<input type="text" class="bo1" placeholder="    username" id="username"><br><br>
-<input type="text" class="bo1" placeholder="    id_number" id="acno"><br><br>
-<input type="password" class="bo1"placeholder="    password" id="pass"><br><br>
+<input type="text" class="bo1" placeholder="username" id="username"><br><br>
+<input type="text" class="bo1" placeholder="id_number" id="acno"><br><br>
+<input type="password" class="bo1"placeholder="password" id="pass"><br><br>
 <button class="btn" onclick="register()">Register</button><br><br>
 <a href="./login1.html" style="margin-top: 10px;">sign up</a>
 </center>

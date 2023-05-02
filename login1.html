@@ -10,8 +10,9 @@
             margin-top: 100px;
             font-style: italic;
             background-color: black;
-            background-image: url(https://th.bing.com/th/id/OIP.nsI3F3_ausczcwGU0SImkgHaEK?pid=ImgDet&rs=1);
-    background-size: cover;
+            
+            background-image: url(https://th.bing.com/th/id/OIP.ybjrO7l9RsQJ4HfpQbrH9wHaEK?pid=ImgDet&rs=1);
+          backdrop-filter: blur(90%);
             
         }
         .bo{
@@ -48,6 +49,23 @@ background-image: linear-gradient(185deg,rgb(25, 211, 211) ,rgb(255, 0, 255));
            
             
         }
+        input{
+            text-align: center;
+        }
+        @media (max-width:380px){
+            .bo{
+                width: 230px;
+            }
+            #acc{
+                position: relative;
+                left: -20px;
+            }
+            #pswd{
+                position: relative;
+                left: -20px;
+            
+            }
+        }
     </style>
 </head>
 
@@ -56,8 +74,8 @@ background-image: linear-gradient(185deg,rgb(25, 211, 211) ,rgb(255, 0, 255));
     <div class="bo">
         <img src="./Picsart_23-03-17_20-27-19-883.png" alt="" width="100px">
 <h1> Budget Calculator!</h1>
-<input type="text" class="bo1" placeholder="    id_number" id="acc"><br><br>
-<input type="password" class="bo1"placeholder="    password" id="pswd"><br><br>
+<input type="text" class="bo1" placeholder="id_number" id="acc"><br><br>
+<input type="password" class="bo1"placeholder="password" id="pswd"><br><br>
 <button class="btn" onclick="login()"> login </button> <br><br>
 <span> new user?</span><span> <a href="./login2.html">sign up</a></span>
 <h5>by_aadeshps</h5>

@@ -10,14 +10,14 @@ function register(){
       pasz ,
   }
   if( user ==="" || acco ==="" || pasz ===""){
-      alert("fill input field")
+      alert("Fill Input Field")
   }
  else if(acco in localStorage){
-      alert("existing account!")
+      alert("Existing Account!")
   }
   else{
       localStorage.setItem(acco,JSON.stringify(acdetails));
-      alert("register successfully")
+      alert("Register Successfully")
       window.location.href="login1.html"
   }
 
@@ -34,7 +34,7 @@ function login(){
       alert("Login Successfully:)")
       window.location.href="index.html"
   }
-  if(acc.value===""|| pswd.value===""){
+  if(acc.value ===""|| pswd.value ===""){
       alert("Please Fill Your Inputs :(")
 
   }
