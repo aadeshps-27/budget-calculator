@@ -265,3 +265,38 @@ border-style: inset;
     background-color: red;
     color: white;
 }
+
+
+
+
+@media (max-width:400px){
+    #setxpence{
+       font-size: small;
+
+    }
+    #buttonbudget{
+        font-size: small;  
+    }
+#card1{
+    position: relative;
+    left: -50px;
+}
+#card2{
+    position: relative;
+    left: -50px;
+}
+    
+}
+@media (max-width:380px){
+    #hea{
+        font-size: 19px;
+    }
+    #card1{
+        position: relative;
+        left: -60px;
+    }
+    #card2{
+        position: relative;
+        left: -60px;
+    }
+}
